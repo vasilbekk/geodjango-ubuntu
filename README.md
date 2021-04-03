@@ -51,5 +51,22 @@ $ sudo make install
 $ cd ..
 ```
 
+## GDAL
+GDAL - отличная геопространственная библиотека с открытым исходным кодом, которая поддерживает чтение большинства векторных и растровых форматов пространственных данных. В настоящее время, GeoDjango поддерживает только векторные данные библиотеки GDAL по возможности [2] . GEOS и PROJ.4 должны быть установлены до создания GDAL.
+
+Давайте загрузим и распакуем:
+```
+$ wget https://download.osgeo.org/gdal/X.Y.Z/gdal-X.Y.Z.tar.gz
+$ tar xzf gdal-X.Y.Z.tar.gz
+$ cd gdal-X.Y.Z
+```
+Настроим, изготовим и установим:
+```
+$ ./configure
+$ make # Go get some coffee, this takes a while.
+$ sudo make install
+$ cd ..
+```
+
 
 
