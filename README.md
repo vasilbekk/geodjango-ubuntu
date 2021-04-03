@@ -77,7 +77,7 @@ $ cd ..
 ## Установка расширения в базе данных PostgreSQL
 Устанавливаем `postgis`:
 ```
-$ pip install postgis
+$ sudo apt-get install postgis
 ```
 
 Подключаемся к нашей базе данных
