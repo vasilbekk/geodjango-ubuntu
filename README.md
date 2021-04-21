@@ -92,7 +92,7 @@ CREATE EXTENSION
 ```
 Проверяем работоспособность:
 ```
-postgres SELECT PostGIS_version();
+postgres=# SELECT PostGIS_version();
             postgis_version            
 ---------------------------------------
  2.5 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
