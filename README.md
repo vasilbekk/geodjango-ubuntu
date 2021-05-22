@@ -4,7 +4,7 @@ GeoDjango — это библиотека для расширения возмо
 ## Установка необходимых утилит
 
 ```
-$ sudo apt-get install binutils libproj-dev gdal-bin
+$ sudo apt-get install binutils libproj-dev gdal-bin g++
 ```
 
 ❗ При установке у вас может не оказаться какого-либо пакета и вас попросят его установить.
